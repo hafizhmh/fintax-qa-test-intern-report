@@ -93,10 +93,11 @@ Step to reproduce:
 4. The prompt is still exactly the same as before
 
 ![Negative value validation failed](README/formvalidation_negative2.jpg)
+
 Another case:
 1. Input an invalid input but not a negative integer, such as "-1a3"
 2. The prompt "Please input an integer"
 3. Input a negative value, such as -1
 4. The prompt is still exactly the same as before
 
-The above case can make the user confused: The input is an integer but it apparently still raises an error.
+The above case can make users confused: The input is an integer but it apparently still raises an error.
