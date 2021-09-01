@@ -22,7 +22,7 @@ The web application was tested by using Chrome 92.0.4515.159, Firefox 91.0.2, an
 
 # Accessing the API directly
 Requesting the calculation can also be done directly to the API by using POST method to the `/factorial` path, carrying form-data with key `"number"` and an integer value.
-![API response](README\response_170.jpg)
+![API response](README/response_170.jpg)
 
 # Acceptable values
 ## The application correctly calculate 0! and 1!
