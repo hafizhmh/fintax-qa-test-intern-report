@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://qainterview.pythonanywhere.com/')
 
-'For index >= 22, the responses use scientific notation so the result may not be exactly same as generated from this script.\r\nOnly checking if that there is a response. There is a computational limitation with the upper limit of 170!'
+'There is a computational limitation with the upper limit of 170!'
 for (def index : (169..172)) {
     expectedResult = CustomKeywords.'factorial.Factorial.factorial'(index)
 

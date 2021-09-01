@@ -31,7 +31,7 @@ WebUI.verifyMatch(windowTitle, 'Factorial', false, FailureHandling.CONTINUE_ON_F
 copyright = WebUI.getText(findTestObject('Page_Factoriall/p_Qxf2 Services document.write(new Date().getFullYear())2021 -                document.write(new Date().getFullYear())2021'))
 
 'According to the Qxf2 Service web from the copyright link, the copyright year should be 2013 - <current year>'
-WebUI.verifyMatch(copyright, '© Qxf2 Services 2013.*', true)
+WebUI.verifyMatch(copyright, '© Qxf2 Services 2013.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 
 'Text should be "The greatest factorial calculator!"'
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Factoriall/h1_The greatest factorial calculator'), 'The greatest factorial calculator!', 
