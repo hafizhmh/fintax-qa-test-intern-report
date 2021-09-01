@@ -84,6 +84,7 @@ Users need to press "Calculate!" button to request the result. While it is indee
 ### Inserting negative value will not raise an error prompt nor update the previous prompt
 
 ![Negative value validation failed](README/formvalidation_negative.jpg)
+
 Step to reproduce:
 
 1. Input a valid input, such as 3
