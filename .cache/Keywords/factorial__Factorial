@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "91966CA3E063E3DFED9FC3E49DC50FD1",
+  "keywordClasses": [
+    {
+      "name": "factorial.Factorial",
+      "keywordMethods": [
+        {
+          "name": "factorial",
+          "parameters": [
+            {
+              "name": "n",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
