@@ -58,7 +58,7 @@ Requesting the calculation can also be done directly to the API by using POST me
 ### Title tag
 ![Title](/README/title.jpg)
 
-The title has a typo: "Factoriall" instead of "factorial".
+The title has a typo: "Factoriall" instead of "Factorial".
 
 ### Copyright notice
 ![Copyright](/README/copyright.jpg)
