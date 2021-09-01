@@ -25,65 +25,65 @@ Requesting the calculation can also be done directly to the API by using POST me
 ![API response](README/response_170.jpg)
 
 # Acceptable values
-## The application correctly calculate 0! and 1!
+### The application correctly calculate 0! and 1!
 ![0!](/README/result_0.jpg)
 ![1!](/README/result_0.jpg)
 
-## Leading zero is still resulting the correct value
+### Leading zero is still resulting the correct value
 ![0000!](/README/result_0000.jpg)
 ![0000001!](/README/result_0000001.jpg)
 
-## Up to 21! will be displayed as is, without using scientific notation
+### Up to 21! will be displayed as is, without using scientific notation
 ![21!](/README/limit_21.jpg)
 
-## Up to 170! will be displayed correctly as a numerical value
+### Up to 170! will be displayed correctly as a numerical value
 ![170!](/README/limit_170.jpg)
 
 # Correct Prompt
-## Inserting a non numerical value will raise an error prompt
-!["a"](README\formvalidation_a.jpg)
-![Scientific notation](README\formvalidation_scinotation.jpg)
+### Inserting a non numerical value will raise an error prompt
+!["a"](README/formvalidation_a.jpg)
+![Scientific notation](README/formvalidation_scinotation.jpg)
 
 
 
 # Limitation
-## From 171!, "infinity" is displayed as the result instead.
+### From 171!, "infinity" is displayed as the result instead.
 ![171!](/README/limit_171.jpg)
 
-## 990! and above will raise HTTP Error 500
+### 990! and above will raise HTTP Error 500
 ![990!](/README/limit_990.jpg)
 
 # Known Issue
 
-## Title tag
+### Title tag
 ![Title](/README/title.jpg)
 
 The title has a typo: "Factoriall" instead of "factorial".
 
-## Copyright notice
+### Copyright notice
 ![Copyright](/README/copyright.jpg)
 
 According to the [Qxf2 Service web](https://qxf2.com/?utm_source=qa-interview&utm_medium=click&utm_campaign=From%20QA%20Interview) from the copyright link, the copyright message should be <br>"© Qxf2 Services 2021 - 2021".
 
-## Wrong href value
+### Wrong href value
 ![Wrong link](/README/wronglink.jpg)
 The "Terms and Conditions" hyperlink links to the privacy document, while the "Privacy" hyperlink links to the Terms and Condition document.
 
-## Wording
+### Wording
 <img src="README/wording_greatest.jpg" alt="Greatest calculator" width="200"/>
 <img src="README/wording_best.jpg" alt="Best calculator" width="200"/>
 
 I believe the word "best" is more appropriate to use than "greatest".
 
-## Enter key can not be used yet
+### Enter key can not be used yet
 Users need to press "Calculate!" button to request the result. While it is indeed working, I belive enabling enter key usage will improve the web's user experience.
 
 * Side note: Enter key automation from Katalon failed to be done properly on Firefox
 ![Enter key failed on firefox automation](README/firefox_ENTERkey_failed.jpg)
 
-## Inserting negative value will not raise an error prompt nor update the previous prompt
+### Inserting negative value will not raise an error prompt nor update the previous prompt
 
-![Negative value validation failed](README\formvalidation_negative.jpg)
+![Negative value validation failed](README/formvalidation_negative.jpg)
 Step to reproduce:
 
 1. Input a valid input, such as 3
@@ -91,7 +91,7 @@ Step to reproduce:
 3. Input a negative value, such as -1
 4. The prompt is still exactly the same as before
 
-![Negative value validation failed](README\formvalidation_negative2.jpg)
+![Negative value validation failed](README/formvalidation_negative2.jpg)
 Another case:
 1. Input an invalid input but not a negative integer, such as "-1a3"
 2. The prompt "Please input an integer"
