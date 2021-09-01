@@ -10,7 +10,7 @@ The web application was tested by using Chrome 92.0.4515.159, Firefox 91.0.2, an
 2. Download [Katalon Studio](https://www.katalon.com/download/)
 3. Open Katalon Studio
 4. Open the tests folder (File>Open Project)
-5. There are 4 items inside Test Cases:
+5. There are 5 items inside Test Cases:
 
    * General UI and Navigation
    * Positive integer input
