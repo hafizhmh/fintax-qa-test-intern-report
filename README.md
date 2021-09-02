@@ -17,11 +17,11 @@ The web application was tested by using Chrome 92.0.4515.159, Firefox 91.0.2, an
    * Negative integer input
    * Big positive integer input
    * Series of valid-invalid input
-6. Double click to open one of the files above and press Run on the toolbar (or press Ctrl + Shift + A on Windows). By default it will open your default web browser but it can be change by clicking the dropdown.
-7. The results can be viewed on Log Viewer and Console tab in the bottom. In the Log Viewer, passed tests wil have a green checkmark, failed tests will have a red crossmark, and failed optional tests will have a yellow triangle mark.
+6. Double click to open one of the files above and press Run on the toolbar (or press Ctrl + Shift + A on Windows). By default, it will open your default web browser but it can be changed by clicking the dropdown.
+7. The results can be viewed on Log Viewer and Console tab at the bottom. In the Log Viewer, passed tests will have a green checkmark, failed tests will have a red cross mark, and failed optional tests will have a yellow triangle mark.
 
 # Accessing the API directly
-Requesting the calculation can also be done directly to the API by using POST method to the `/factorial` path, carrying form-data with key `"number"` and an integer value.
+Requesting the calculation can also be done directly to the API by using the POST method to the `/factorial` path, carrying form-data with key `"number"` and an integer value.
 ![API response](README/response_170.jpg)
 
 # Acceptable values
@@ -76,7 +76,7 @@ The "Terms and Conditions" hyperlink links to the privacy document, while the "P
 I believe the word "best" is more appropriate to use than "greatest".
 
 ### Enter key can not be used yet
-Users need to press "Calculate!" button to request the result. While it is indeed working, I belive enabling enter key usage will improve the web's user experience.
+Users need to press the "Calculate!" button to request the result. While it is indeed working, I believe enabling enter key usage will improve the web's user experience.
 
 * Side note: Enter key automation from Katalon failed to be done properly on Firefox
 ![Enter key failed on firefox automation](README/firefox_ENTERkey_failed.jpg)
